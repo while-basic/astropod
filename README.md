@@ -1,8 +1,6 @@
 # Astropod | Free and Open Source Serverless Podcast
 
-![Atropod](https://github.com/manuelernestog/manuelernestog/assets/53962116/3106bf65-37f9-427f-9b50-72d7ae22752f)
-
-Astropod is a free and open-source self-hosting serverless podcast solution. It supports diverse deployment services and audio hosting options and includes a customizable website deployable in a few clicks, with a personalized domain and a user-friendly CMS for effortless podcast management.
+![Atropod](https://github.com/manuelernestog/manuelernestog/assets/53962116/3106bf65-37f9-427f-9b50-72d7ae22752f)Astropod is a free and open-source self-hosting serverless podcast solution. It supports diverse deployment services and audio hosting options and includes a customizable website deployable in a few clicks, with a personalized domain and a user-friendly CMS for effortless podcast management.
 
 ---
 
@@ -10,19 +8,15 @@ Astropod is a free and open-source self-hosting serverless podcast solution. It 
 
 View a live demo and a tutorial step by step of how deploy and configure your podcast with Astropod.
 
-👉️ <https://getastropod.netlify.app>
+👉️ [https://getastropod.netlify.app](https://main--quiet-choux-b72c55.netlify.app/)
 
 ---
 
 ## Quick deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy]
-
 - Click the Deploy button to copy this project to your own GitHub or GitLab account and deploy your podcast with Netlify in minutes. ✨
 
-- Once you’ve got the project set up, you do need to
-[activate Netlify Identity in the Netlify UI][identity], the
-[“Git Gateway”][gateway] to allow e-mail/password authentication and you are ready to go.
+- Once you’ve got the project set up, you do need to [activate Netlify Identity in the Netlify UI](https://docs.netlify.com/visitor-access/identity/), the [“Git Gateway”](https://docs.netlify.com/visitor-access/git-gateway/) to allow e-mail/password authentication and you are ready to go.
 
 ---
 
@@ -66,14 +60,14 @@ The fact that Astropod comes configured by default with Decap does not mean that
 
 All commands are run from the root of the project, from a terminal:
 
-| Command            | Action                                             |
-| :----------------- | :------------------------------------------------- |
-| `pnpm install`     | Installs dependencies                              |
-| `pnpm run dev`     | Starts local dev & Netlify CMS proxy servers       |
-| `pnpm run build`   | Build your production site to `./dist/`            |
+| Command | Action |
+| --- | --- |
+| `pnpm install` | Installs dependencies |
+| `pnpm run dev` | Starts local dev & Netlify CMS proxy servers |
+| `pnpm run build` | Build your production site to `./dist/` |
 | `pnpm run preview` | Serve `./dist/` & run the Netlify CMS proxy server |
 
-> These commands are using [`pnpm`][pnpm], but you can choose to use `npm` or `yarn` instead if you prefer.
+> These commands are using `pnpm`, but you can choose to use `npm` or `yarn` instead if you prefer.
 
 ## Project Structure
 
@@ -99,7 +93,7 @@ Suggestions and pull requests are welcomed! Feel free to open a discussion or an
 
 One of the best ways of contribute is to grab a [bug report or feature suggestion](https://github.com/manuelernestog/astropod/issues) that has been marked `accepted` and dig in.
 
-Please be wary of working on issues _not_ marked as `accepted`. Just because someone has created an issue doesn't mean we'll accept a pull request for it.
+Please be wary of working on issues *not* marked as `accepted`. Just because someone has created an issue doesn't mean we'll accept a pull request for it.
 
 ## License
 
@@ -107,11 +101,4 @@ Astropod is licensed under the MIT license — see the [LICENSE](https://github.
 
 ## Contributors
 
-[![Manuel Ernestog](https://contrib.rocks/image?repo=manuelernestog/astropod)](https://github.com/manuelernestog/astropod/graphs/contributors)
-
 Made with [contrib.rocks](https://contrib.rocks).
-
-[deploy]: https://app.netlify.com/start/deploy?repository=https://github.com/manuelernestog/astropod
-[identity]: https://docs.netlify.com/visitor-access/identity/
-[gateway]: https://docs.netlify.com/visitor-access/git-gateway/
-[pnpm]: https://pnpm.io/
